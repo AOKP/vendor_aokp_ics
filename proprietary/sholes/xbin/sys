@@ -1,0 +1,23 @@
+#!/system/bin/sh
+
+if [ "$1" = "" ];
+then
+	echo 'Usage: sys [-rw] [-ro]'
+	echo ''
+	echo 'Options:'
+	echo '        -rw	mounts system as read write'
+	echo '        -ro	mounts system as read only'
+fi
+
+if [ "$1" = "-rw" ];
+then
+	mount -o rw,remount -t yaffs2 /dev/block/mtdblock4 /system
+	echo 'System Mounted Read Write'
+fi
+
+
+if [ "$1" = "-ro" ];
+then
+	mount -o ro,remount -t yaffs2 /dev/block/mtdblock4 /system
+	echo 'System Mounted Read Only'
+fi
