@@ -1,0 +1,38 @@
+#!/system/bin/sh
+#
+# Compcache manager
+#
+
+DEV=/dev/block/zram0
+SYSFS_PATH=/sys/block/zram0
+MODULE=zram.ko
+MODULES_DIR=/system/lib/modules
+
+case "$1" in
+   start)
+      echo 3 > /proc/sys/vm/drop_caches
+      echo 30 > /proc/sys/vm/swappiness
+      insmod $MODULES_DIR/$MODULE
+      # Default of 18% has a disksize of 42655744
+      echo 42655744 > $SYSFS_PATH/disksize
+      mkswap $DEV >/dev/null
+      swapon $DEV
+   ;;
+
+   stop)
+      swapoff $DEV >/dev/null 2>&1
+      rmmod $MODULE >/dev/null 2>&1
+   ;;
+   stats)
+     cd $SYSFS_PATH && for i in * ; do
+         echo -n "$i:" 
+         cat $i
+     done
+   ;;
+   *)
+      echo "Usage: compcache {start|stop|stats}"
+      exit 1
+esac
+
+exit 0
+

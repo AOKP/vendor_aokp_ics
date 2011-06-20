@@ -1,4 +1,4 @@
-# Inherit AOSP device configuration for crespo.
+# Inherit AOSP device configuration for crespo4g.
 $(call inherit-product, device/samsung/crespo4g/full_crespo4g.mk)
 
 # Inherit common product files.

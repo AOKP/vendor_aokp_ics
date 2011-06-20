@@ -14,5 +14,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/sholes/app/SholesQuickOffice.apk:system/app/SholesQuickOffice.apk \
     vendor/pete/proprietary/sholes/bin/compcache:system/bin/compcache \
     vendor/pete/proprietary/sholes/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/pete/proprietary/sholes/xbin/compcache:system/xbin/compcache \
     vendor/pete/proprietary/sholes/xbin/sys:system/xbin/sys
 
