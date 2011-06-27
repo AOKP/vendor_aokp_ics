@@ -4,6 +4,9 @@ $(call inherit-product, device/motorola/sholes/sholes.mk)
 # Inherit common product files.
 $(call inherit-product, vendor/pete/products/common.mk)
 
+# Inherit sounds Motorola chose for sholes.
+$(call inherit-product-if-exists, frameworks/base/data/sounds/AudioPackage3.mk)
+
 # Setup device specific product configuration.
 PRODUCT_NAME := pete_sholes
 
@@ -14,6 +17,8 @@ PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/sholes/app/SholesQuickOffice.apk:system/app/SholesQuickOffice.apk \
     vendor/pete/proprietary/sholes/bin/compcache:system/bin/compcache \
     vendor/pete/proprietary/sholes/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/pete/proprietary/sholes/media/audio/notifications/droid.ogg:system/media/audio/notifications/droid.ogg \
+    vendor/pete/proprietary/sholes/media/audio/ringtones/DroidInvasion.ogg:system/media/audio/ringtones/DroidInvasion.ogg \
     vendor/pete/proprietary/sholes/xbin/compcache:system/xbin/compcache \
     vendor/pete/proprietary/sholes/xbin/sys:system/xbin/sys
 
