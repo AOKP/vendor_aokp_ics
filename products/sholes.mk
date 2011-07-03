@@ -19,6 +19,5 @@ PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/sholes/media/bootanimation.zip:system/media/bootanimation.zip \
     vendor/pete/proprietary/sholes/media/audio/notifications/droid.ogg:system/media/audio/notifications/droid.ogg \
     vendor/pete/proprietary/sholes/media/audio/ringtones/DroidInvasion.ogg:system/media/audio/ringtones/DroidInvasion.ogg \
-    vendor/pete/proprietary/sholes/xbin/compcache:system/xbin/compcache \
     vendor/pete/proprietary/sholes/xbin/sys:system/xbin/sys
 
