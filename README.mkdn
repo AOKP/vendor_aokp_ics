@@ -1,0 +1,22 @@
+Peter Alfonso
+===========
+
+Visit http://peteralfonso.com 
+
+Follow http://twitter.com/peteralfonso 
+
+Circle http://profiles.google.com/peteralfonsojr
+
+
+Getting Started
+---------------
+
+To initialize your local repository using my trees, use a command like this:
+
+    repo init -u git://github.com/peteralfonso/platform_manifest.git -b gingerbread
+
+Then to sync up:
+
+    repo sync
+
+Please see the [Android source page](http://source.android.com/source/index.html) for building instructions.
