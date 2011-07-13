@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/talkback.apk:system/app/talkback.apk \
     vendor/pete/proprietary/common/app/Toolkit.apk:system/app/Toolkit.apk \
     vendor/pete/proprietary/common/app/Vending.apk:system/app/Vending.apk \
+    vendor/pete/proprietary/common/app/Videos.apk:system/app/Videos.apk \
     vendor/pete/proprietary/common/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
     vendor/pete/proprietary/common/app/YouTube.apk:system/app/YouTube.apk \
     vendor/pete/proprietary/common/etc/contributors.css:system/etc/contributors.css \
