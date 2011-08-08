@@ -1,6 +1,21 @@
+# Generic product
+PRODUCT_NAME := pete
+PRODUCT_BRAND := pete
+PRODUCT_DEVICE := generic
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
+# Used by BusyBox
+KERNEL_MODULES_DIR:=/system/lib/modules
+
+# Tiny toolbox
+TINY_TOOLBOX:=true
+
+# Common overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/common
+
 PRODUCT_COPY_FILES += \
+    vendor/pete/proprietary/common/app/Books.apk:system/app/Books.apk \
     vendor/pete/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
     vendor/pete/proprietary/common/app/CarHomeLauncher.apk:system/app/CarHomeLauncher.apk \
     vendor/pete/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
@@ -43,4 +58,8 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/lib/libtalk_jni.so:system/lib/libtalk_jni.so \
     vendor/pete/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/pete/proprietary/common/xbin/su:system/xbin/su
+
+# Enable SIP+VoIP on all targets
+PRODUCT_COPY_FILES += \
+    frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 

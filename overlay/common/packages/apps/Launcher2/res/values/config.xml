@@ -1,0 +1,4 @@
+<resources>
+    <integer name="config_allAppsFadeInTime">300</integer>
+    <integer name="config_allAppsFadeOutTime">300</integer>
+</resources>
