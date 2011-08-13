@@ -17,4 +17,5 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=soju BUILD_ID=GRJ22 BUILD_DISPLAY_I
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/crespo4g/app/Thinkfree.apk:system/app/Thinkfree.apk \
     vendor/pete/proprietary/crespo4g/lib/libearthmobile.so:system/lib/libearthmobile.so \
+    vendor/pete/proprietary/crespo4g/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
     vendor/pete/proprietary/crespo4g/media/bootanimation.zip:system/media/bootanimation.zip
