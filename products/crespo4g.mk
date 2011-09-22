@@ -11,11 +11,17 @@ PRODUCT_DEVICE := crespo4g
 PRODUCT_MODEL := Nexus S 4G
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=sojus BUILD_ID=GRJ90 BUILD_DISPLAY_ID=GRK39C BUILD_FINGERPRINT=google/sojus/crespo4g:2.3.5/GRJ90/138666:user/release-keys PRIVATE_BUILD_DESC="sojus-user 2.3.5 GRJ90 138666 release-keys" BUILD_NUMBER=138666 BUILD_UTC_DATE=1309378584 TARGET_BUILD_TYPE=user BUILD_VERSION_TAGS=release-keys USER=android-build
+PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=sojus BUILD_ID=GWK74 BUILD_DISPLAY_ID=GWK74 BUILD_FINGERPRINT=google/sojus/crespo4g:2.3.7/GWK74/185293:user/release-keys PRIVATE_BUILD_DESC="sojus-user 2.3.7 GWK74 185293 release-keys" BUILD_NUMBER=185293 BUILD_UTC_DATE=1315940902 TARGET_BUILD_TYPE=user BUILD_VERSION_TAGS=release-keys USER=android-build
 
 # Copy crespo4g specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/crespo4g/app/Thinkfree.apk:system/app/Thinkfree.apk \
-    vendor/pete/proprietary/crespo4g/lib/libearthmobile.so:system/lib/libearthmobile.so \
+    vendor/pete/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
+    vendor/pete/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
+    vendor/pete/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
+    vendor/pete/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
+    vendor/pete/proprietary/common/lib/libshopperimageutils-3.so:system/lib/libshopperimageutils-3.so \
+    vendor/pete/proprietary/common/lib/libshoppervorbisencoder-2.so:system/lib/libshoppervorbisencoder-2.so \
+    vendor/pete/proprietary/common/lib/libshopperzxingutils-4.so:system/lib/libshopperzxingutils-4.so \
     vendor/pete/proprietary/crespo4g/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
     vendor/pete/proprietary/crespo4g/media/bootanimation.zip:system/media/bootanimation.zip

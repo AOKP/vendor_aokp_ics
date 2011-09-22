@@ -15,7 +15,7 @@ TINY_TOOLBOX:=true
 PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/common
 
 PRODUCT_COPY_FILES += \
-    vendor/pete/proprietary/common/app/Books.apk:system/app/Books.apk \
+    vendor/pete/proprietary/common/app/BooksPhone.apk:system/app/BooksPhone.apk \
     vendor/pete/proprietary/common/app/CarHome.apk:system/app/CarHome.apk \
     vendor/pete/proprietary/common/app/CarHomeLauncher.apk:system/app/CarHomeLauncher.apk \
     vendor/pete/proprietary/common/app/GenieWidget.apk:system/app/GenieWidget.apk \
