@@ -1,3 +1,4 @@
 add_lunch_combo pete_crespo-user
 add_lunch_combo pete_crespo4g-user
+add_lunch_combo pete_passion-user
 add_lunch_combo pete_sholes-user
