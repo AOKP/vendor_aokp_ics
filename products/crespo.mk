@@ -17,6 +17,7 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=soju BUILD_ID=GRJ22 BUILD_DISPLAY_I
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/crespo4g/app/Thinkfree.apk:system/app/Thinkfree.apk \
     vendor/pete/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
+    vendor/pete/proprietary/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/pete/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
     vendor/pete/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
     vendor/pete/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \

@@ -15,5 +15,6 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=passion BUILD_ID=GRK39F BUILD_DISPL
 
 # Copy passion specific prebuilt files
 PRODUCT_COPY_FILES +=  \
+    vendor/pete/proprietary/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/pete/proprietary/passion/app/PassionQuickOffice.apk:system/app/PassionQuickOffice.apk \
     vendor/pete/proprietary/passion/media/bootanimation.zip:system/media/bootanimation.zip
