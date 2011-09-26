@@ -11,6 +11,14 @@ KERNEL_MODULES_DIR:=/system/lib/modules
 # Tiny toolbox
 TINY_TOOLBOX:=true
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.url.legal=http://www.google.com/intl/%s/mobile/android/basic/phone-legal.html \
+    ro.url.legal.android_privacy=http://www.google.com/intl/%s/mobile/android/basic/privacy.html \
+    ro.com.google.clientidbase=android-google \
+    ro.com.android.wifi-watchlist=GoogleGuest \
+    ro.setupwizard.mode=OPTIONAL \
+    ro.setupwizard.enterprise_mode=1
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/common
 
