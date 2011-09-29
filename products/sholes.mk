@@ -16,6 +16,9 @@ PRODUCT_MANUFACTURER := Motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=voles BUILD_ID=FRG83G BUILD_DISPLAY_ID=GWK74 TARGET_DEVICE=sholes BUILD_FINGERPRINT=verizon/voles/sholes/sholes:2.2.2/FRG83G/91102:user/release-keys PRODUCT_BRAND=verizon PRIVATE_BUILD_DESC="voles-user 2.2.2 FRG83G 91102 release-keys" BUILD_NUMBER=91102 BUILD_UTC_DATE=1294972140 TARGET_BUILD_TYPE=user BUILD_VERSION_TAGS=release-keys USER=android-build
 
+# Extra sholes overlay
+PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/sholes
+
 # Copy sholes specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/sholes/app/SholesQuickOffice.apk:system/app/SholesQuickOffice.apk \
