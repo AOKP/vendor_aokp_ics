@@ -1,0 +1,40 @@
+Peter Alfonso
+===========
+
+Visit http://peteralfonso.com 
+
+Follow http://twitter.com/peteralfonso 
+
+Like http://facebook.com/peteralfonsojr
+
+Link http://linkedin.com/in/peteralfonso
+
+Circle http://profiles.google.com/peteralfonsojr
+
+CHANGELOG (notable new features)
+---------
+
+### GPA18
+* Common: Android 2.3.7 (Google)
+* Common: Latest Superuser app - ChainsDD
+* Common: Pacman package manager - Kmobs
+* Common: Editable event fields in Contacts app - Danny Baumann
+* Common: Hold app in delete zone to prompt for uninstall - ADW, adamg-xda, renan
+* Common: Delete a word by pressing shift+backspace - zewt 
+* Common: Heart emoticon - Kmobs
+* Passion: Kernel update, added governors and bug fixes...
+* Passion: Updated proprietaries
+* Crespo/Crespo4G: Updated proprietaries
+
+### GPA17
+* Common: Android 2.3.5 (Google)
+* Common: Don't allow packages with platform keys on user-controlled storage
+* Common: 0/90/180/270 rotation 
+* Common: Add "copy all" to context menu - Danesh M
+* Common: Nicer timepicker/datepicker - Jiri Tyr
+* Common: Headset/heaphone icons in status bar - e-yes, synrgi, blunden
+* Common: Allow saving and attaching any filetype with Email app - mtwebster
+* Crespo/Crespo4G: Kernel update to 2.6.35.14 and more, voodoo implementation, BLN...
+* Sholes: Kernel update (V0.3.1), added bug fixes, overclockable to 1GHz...
+
+

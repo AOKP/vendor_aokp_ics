@@ -20,6 +20,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.mode=OPTIONAL \
     ro.setupwizard.enterprise_mode=1
 
+# ROM specific product packages
+PRODUCT_PACKAGES += \
+    Pacman
+
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/common
 
