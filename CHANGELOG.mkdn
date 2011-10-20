@@ -69,3 +69,7 @@ CHANGELOG (notable changes)
 * Common: Added 5 minute screen timeout option
 * Sholes: Various bug fixes/changes
 
+### GPA11
+* Common: Android 2.3.2 (Google)
+* Common: Added missing Gingerbread lockscreen and DeskClock images
+* Sholes: Overclocked to 800MHz stock kernel
