@@ -74,3 +74,4 @@ CHANGELOG (notable changes)
 * Common: Added missing Gingerbread lockscreen and DeskClock images
 * Sholes: Overclocked to 800MHz stock kernel
 
+
