@@ -16,6 +16,7 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=soju BUILD_ID=GRJ22 BUILD_DISPLAY_I
 # Copy crespo specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/crespo4g/app/Thinkfree.apk:system/app/Thinkfree.apk \
+    vendor/pete/proprietary/common/app/Nfc.apk:system/app/Nfc.apk \
     vendor/pete/proprietary/common/app/Wallet.apk:system/app/Wallet.apk \
     vendor/pete/proprietary/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/pete/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
