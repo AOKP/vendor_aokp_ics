@@ -73,3 +73,4 @@ CHANGELOG (notable changes)
 * Common: Android 2.3.2 (Google)
 * Common: Added missing Gingerbread lockscreen and DeskClock images
 * Sholes: Overclocked to 800MHz stock kernel
+
