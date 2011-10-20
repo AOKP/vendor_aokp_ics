@@ -11,7 +11,7 @@ Link http://linkedin.com/in/peteralfonso
 
 Circle http://profiles.google.com/peteralfonsojr
 
-CHANGELOG (notable new features)
+CHANGELOG (notable changes)
 ---------
 
 ### GPA18
@@ -21,7 +21,8 @@ CHANGELOG (notable new features)
 * Common: Editable event fields in Contacts app - Danny Baumann
 * Common: Hold app in delete zone to prompt for uninstall - ADW, adamg-xda, renan
 * Common: Delete a word by pressing shift+backspace - zewt 
-* Common: Heart emoticon - Kmobs
+* Common: Heart emoticon in LatinIME - Kmobs
+* Common: Email app bug fixes and improvements - various
 * Passion: Kernel update, added governors and bug fixes...
 * Passion: Updated proprietaries
 * Crespo/Crespo4G: Updated proprietaries
@@ -29,12 +30,46 @@ CHANGELOG (notable new features)
 ### GPA17
 * Common: Android 2.3.5 (Google)
 * Common: Don't allow packages with platform keys on user-controlled storage
-* Common: 0/90/180/270 rotation 
 * Common: Add "copy all" to context menu - Danesh M
 * Common: Nicer timepicker/datepicker - Jiri Tyr
 * Common: Headset/heaphone icons in status bar - e-yes, synrgi, blunden
 * Common: Allow saving and attaching any filetype with Email app - mtwebster
-* Crespo/Crespo4G: Kernel update to 2.6.35.14 and more, voodoo implementation, BLN...
+* Crespo/Crespo4G: Kernel update to 2.6.35.14, voodoo implementation, BLN...
 * Sholes: Kernel update (V0.3.1), added bug fixes, overclockable to 1GHz...
 
+### GPA16
+* Common: Android 2.3.4 (Google)
+* Common: Nexus S style "Neural Network" live wallpaper
+* Common: Google talk with voice and video chat
+* Sholes: Fix connectivity loss bug - cvpcs
 
+### GPA15
+* Common: Disable haptic feedback by default
+* Common: Enabled installation of non market apps by default
+* Common: 0/90/180/270 rotation
+* Common: Reboot option to power menu added - Pete
+* Sholes: USB tethering fix - cvpcs 
+* Sholes: Kernel update (V0.2), updated compcache and interactive gov...
+* Sholes: Increased sdcard throughput
+
+### GPA14
+* Common: New AppWidgetPicker dialog - boombuler
+* Common: DeskClock button effect defaults to "none" - mtwebster
+* Common: Forced assets purgeability - Mike Reed, nadlabak
+* Common: Reorganized device "Status" info
+* Sholes: Various bug fixes/changes
+
+### GPA13
+* Common: Android 2.3.3 (Google)
+* Sholes: Kernel update, interactive gov set as default, new slots...
+* Sholes: QuickOffice app added
+
+### GPA12
+* Common: Removed "System updates" preference screen
+* Common: Added 5 minute screen timeout option
+* Sholes: Various bug fixes/changes
+
+### GPA11
+* Common: Android 2.3.2 (Google)
+* Common: Added missing Gingerbread lockscreen and DeskClock images
+* Sholes: Overclocked to 800MHz stock kernel
