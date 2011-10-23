@@ -3,8 +3,6 @@ PRODUCT_NAME := pete
 PRODUCT_BRAND := pete
 PRODUCT_DEVICE := generic
 
-PRODUCT_BUILD_PROP_OVERRIDES := BUILD_DISPLAY_ID=GPA18 TARGET_BUILD_TYPE=user BUILD_VERSION_TAGS=release-keys USER=android-build
-
 # Used by BusyBox
 KERNEL_MODULES_DIR:=/system/lib/modules
 

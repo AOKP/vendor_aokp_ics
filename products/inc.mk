@@ -13,6 +13,9 @@ PRODUCT_MANUFACTURER := HTC
 
 PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=inc BUILD_ID=GRJ22 TARGET_DEVICE=inc BUILD_FINGERPRINT=verizon_wwe/inc/inc:2.3.4/GRJ22/140944.3:user/release-keys PRODUCT_BRAND=verizon_wwe PRIVATE_BUILD_DESC="4.06.605.3 CL140944 release-keys" BUILD_NUMBER=140944.3 BUILD_UTC_DATE=1313665555
 
+# Inherit common build.prop overrides
+-include vendor/pete/products/common_versions.mk
+
 # Extra inc overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/inc
 
