@@ -3,7 +3,7 @@ PRODUCT_NAME := pete
 PRODUCT_BRAND := pete
 PRODUCT_DEVICE := generic
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
+PRODUCT_BUILD_PROP_OVERRIDES := BUILD_DISPLAY_ID=GPA18 TARGET_BUILD_TYPE=user BUILD_VERSION_TAGS=release-keys USER=android-build
 
 # Used by BusyBox
 KERNEL_MODULES_DIR:=/system/lib/modules
@@ -24,7 +24,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # ROM specific product packages
 PRODUCT_PACKAGES += \
-    Pacman
+    Pacman \
+    Toolkit
 
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/common
@@ -57,7 +58,6 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/pete/proprietary/common/app/Talk2.apk:system/app/Talk2.apk \
     vendor/pete/proprietary/common/app/talkback.apk:system/app/talkback.apk \
-    vendor/pete/proprietary/common/app/Toolkit.apk:system/app/Toolkit.apk \
     vendor/pete/proprietary/common/app/Vending.apk:system/app/Vending.apk \
     vendor/pete/proprietary/common/app/Videos.apk:system/app/Videos.apk \
     vendor/pete/proprietary/common/app/VoiceSearch.apk:system/app/VoiceSearch.apk \
