@@ -31,6 +31,7 @@ CHANGELOG (notable changes)
 * Common: Android 2.3.5 (Google)
 * Common: Don't allow packages with platform keys on user-controlled storage
 * Common: Add "copy all" to context menu - Danesh M
+* Common: Launcher2 speed increase - DustinMJ, ADW
 * Common: Nicer timepicker/datepicker - Jiri Tyr
 * Common: Headset/heaphone icons in status bar - e-yes, synrgi, blunden
 * Common: Allow saving and attaching any filetype with Email app - mtwebster
@@ -41,6 +42,7 @@ CHANGELOG (notable changes)
 * Common: Android 2.3.4 (Google)
 * Common: Nexus S style "Neural Network" live wallpaper
 * Common: Google talk with voice and video chat
+* Common: Add CPU settings to settings menu
 * Sholes: Fix connectivity loss bug - cvpcs
 
 ### GPA15
