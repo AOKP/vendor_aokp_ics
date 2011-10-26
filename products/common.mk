@@ -16,7 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.wifi-watchlist=GoogleGuest \
     ro.error.receiver.system.apps=com.google.android.feedback \
     ro.com.google.locationfeatures=1 \
-    ro.setupwizard.mode=OPTIONAL \
+    ro.setupwizard.enable_bypass=1 \
     ro.setupwizard.enterprise_mode=1
 
 # ROM specific product packages
