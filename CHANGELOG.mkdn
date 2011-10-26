@@ -14,6 +14,14 @@ Circle http://profiles.google.com/peteralfonsojr
 CHANGELOG (notable changes)
 ---------
 
+### GPA19
+* Common: Allow skipping setup wizard by tapping the corners
+* Common: Option to disable showing failed lockscreen pattern - jcs
+* Common: CPU settings, disable governor selector if not supported - turl
+* Common: Wi-Fi improvements - turl, maniac103, tpruvot 
+* Sholes: Fix random camcorder issues
+* Passion: Add trackball wake option - CyanogenMod, jcs
+
 ### GPA18
 * Common: Android 2.3.7 (Google)
 * Common: Latest Superuser app - ChainsDD
@@ -43,6 +51,9 @@ CHANGELOG (notable changes)
 * Common: Nexus S style "Neural Network" live wallpaper
 * Common: Google talk with voice and video chat
 * Common: Add CPU settings to settings menu
+* Common: FLAC playback support - Kenny Root, Cyanogen, Glenn Maynard, cvpcs
+* Common: Allow Facebook to sync on all devices
+* Common: Ad-hoc network support - Petr Havlena
 * Sholes: Fix connectivity loss bug - cvpcs
 
 ### GPA15
@@ -50,6 +61,7 @@ CHANGELOG (notable changes)
 * Common: Enabled installation of non market apps by default
 * Common: 0/90/180/270 rotation
 * Common: Reboot option to power menu added - Pete
+* Common: Option to disabe low battery sound
 * Sholes: USB tethering fix - cvpcs 
 * Sholes: Kernel update (V0.2), updated compcache and interactive gov...
 * Sholes: Increased sdcard throughput
