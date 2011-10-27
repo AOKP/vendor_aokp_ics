@@ -16,7 +16,6 @@ CHANGELOG (notable changes)
 
 ### GPA19
 * Common: Allow skipping setup wizard by tapping the corners
-* Common: Option to disable showing failed lockscreen pattern - jcs
 * Common: CPU settings, disable governor selector if not supported - turl
 * Common: Wi-Fi improvements - turl, maniac103, tpruvot 
 * Sholes: Fix random camcorder issues
