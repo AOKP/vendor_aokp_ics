@@ -22,9 +22,5 @@ PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/common/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/pete/proprietary/common/etc/permissions/com.google.android.nfc_extras.xml:system/etc/permissions/com.google.android.nfc_extras.xml \
     vendor/pete/proprietary/common/framework/com.android.nfc_extras.jar:system/framework/com.android.nfc_extras.jar \
-    vendor/pete/proprietary/common/lib/libearthmobile.so:system/lib/libearthmobile.so \
-    vendor/pete/proprietary/common/lib/libshopperimageutils-3.so:system/lib/libshopperimageutils-3.so \
-    vendor/pete/proprietary/common/lib/libshoppervorbisencoder-2.so:system/lib/libshoppervorbisencoder-2.so \
-    vendor/pete/proprietary/common/lib/libshopperzxingutils-4.so:system/lib/libshopperzxingutils-4.so \
     vendor/pete/proprietary/crespo4g/lib/hw/lights.s5pc110.so:system/lib/hw/lights.s5pc110.so \
     vendor/pete/proprietary/crespo4g/media/bootanimation.zip:system/media/bootanimation.zip

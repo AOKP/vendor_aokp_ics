@@ -68,7 +68,6 @@ PRODUCT_COPY_FILES += \
     vendor/pete/proprietary/common/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/pete/proprietary/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/pete/proprietary/common/lib/libtalk_jni.so:system/lib/libtalk_jni.so \
-    vendor/pete/proprietary/common/lib/libvoicesearch.so:system/lib/libvoicesearch.so \
     vendor/pete/proprietary/common/xbin/su:system/xbin/su
 
 # Enable SIP+VoIP on all targets
