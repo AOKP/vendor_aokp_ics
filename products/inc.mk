@@ -22,5 +22,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/pete/overlay/inc
 # Copy inc specific prebuilt files
 PRODUCT_COPY_FILES +=  \
     vendor/pete/proprietary/inc/media/bootanimation.zip:system/media/bootanimation.zip \
+    vendor/pete/proprietary/passion/app/PassionQuickOffice.apk:system/app/QuickOffice.apk \
     vendor/pete/proprietary/sholes/media/audio/notifications/droid.ogg:system/media/audio/notifications/droid.ogg
 
