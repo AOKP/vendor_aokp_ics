@@ -1,8 +1,3 @@
-# Generic product
-PRODUCT_NAME := aokp
-PRODUCT_BRAND := aokp
-PRODUCT_DEVICE := generic
-
 # Common overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 
