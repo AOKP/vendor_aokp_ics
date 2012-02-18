@@ -16,5 +16,3 @@ PRODUCT_PACKAGES += \
         VisualizationWallpapers \
         librs_jni \
         Trebuchet
-    
-    
