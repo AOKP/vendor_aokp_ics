@@ -21,6 +21,6 @@ PRODUCT_MODEL := GT-I9100
 #Set build fingerprint / ID / Prduct Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=GT-I9100 BUILD_DISPLAY_ID=IML74K BUILD_FINGERPRINT=samsung/GT-I9100/GT-I9100:4.0.3/IML74K/XXLPB:user/release-keys PRIVATE_BUILD_DESC="GT-I9100-user 4.0.3 IML74K XXLPB release-keys"
 
-# boot animation
+# Blobs for SGS2
 PRODUCT_COPY_FILES += \
-	vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
+	vendor/aokp/prebuilt/common/app/AwesomeUpdater.apk:system/app/AwesomeUpdater.apk
