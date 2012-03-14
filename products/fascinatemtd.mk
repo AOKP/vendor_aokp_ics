@@ -16,8 +16,9 @@ PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SCH-I500
 
 #Set build fingerprint / ID / Prduct Name ect.
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-I500 TARGET_DEVICE=SCH-I500 BUILD_ID=IML74K BUILD_FINGERPRINT=google/soju/crespo:2.3.4/GRJ22/121341:user/release-keys PRIVATE_BUILD_DESC="soju-user 2.3.4 GRJ22 121341 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=mysid BUILD_ID=ICL53F BUILD_FINGERPRINT=google/mysid/fascinatemtd:4.0.3/ICL53F/235179:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.0.3 ICL53F 235179 release-keys" BUILD_NUMBER=235179
 
 # boot animation
 PRODUCT_COPY_FILES += \
+        vendor/aokp/prebuilt/tuna/Thinkfree.apk:system/app/Thinkfree.apk \
 	vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
