@@ -1,7 +1,7 @@
 # Version information used on all builds
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IML74K BUILD_VERSION_TAGS=release-keys USER=android-build BUILD_UTC_DATE=$(shell date +"%s")
 
-CURRENT_VERSION=$(TARGET_PRODUCT)_build-1
+CURRENT_VERSION=HyDrOG3N-ICS-$(shell date +"%m-%d-%y")-$(PRODUCT_RELEASE_NAME)
 
 ifneq ($(TARGET_DEVICE),p999)
     ifeq ($(TARGET_DEVICE),p990)
