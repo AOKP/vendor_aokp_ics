@@ -1,0 +1,2 @@
+#!/system/bin/sh
+mount -o bind /mnt/emmc/ /mnt/sdcard/external_sd

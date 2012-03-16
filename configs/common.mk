@@ -31,7 +31,7 @@ PRODUCT_COPY_FILES += \
     
 # init.d
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/etc/init.d/_placeholder_:system/etc/init.d/_placeholder_ \
+    vendor/aokp/prebuilt/common/etc/init.d/01mount:system/etc/init.d/01mount \
     
 # Adding files needed for extra camera features
 PRODUCT_COPY_FILES += \
