@@ -2,11 +2,7 @@
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/common
 
 PRODUCT_PACKAGES += \
-    MusicFX \
-    MusicVisualization \
-    NoiseField \
     ROMControl \
-    PhaseBeam \
     su
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -22,16 +18,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/app/FManager.apk:system/app/FManager.apk \
+    vendor/aokp/prebuilt/common/app/Music.apk:system/app/Music.apk \
     vendor/aokp/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/aokp/prebuilt/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
-    vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf  \
-    vendor/aokp/prebuilt/common/app/Microbes.apk:system/app/Microbes.apk \
-    vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
-    vendor/aokp/prebuilt/common/app/UnicornPorn.apk:system/app/UnicornPorn.apk
+    vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf  
     
 # init.d
 PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/etc/init.d/_placeholder_:system/etc/init.d/_placeholder_ \
+    vendor/aokp/prebuilt/common/etc/init.d/01mount:system/etc/init.d/01mount \
     
 # Adding files needed for extra camera features
 PRODUCT_COPY_FILES += \
