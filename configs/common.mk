@@ -18,6 +18,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/app/FManager.apk:system/app/FManager.apk \
+    vendor/aokp/prebuilt/common/app/Music.apk:system/app/Music.apk \
     vendor/aokp/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/aokp/prebuilt/common/app/LatinImeDictionaryPack.apk:system/app/LatinImeDictionaryPack.apk \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf  
