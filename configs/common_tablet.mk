@@ -11,9 +11,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     
     
 PRODUCT_PACKAGES += \
-        LiveWallpapers \
-        LiveWallpapersPicker \
-        VisualizationWallpapers \
         librs_jni \
         Trebuchet
     
