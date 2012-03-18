@@ -1,1 +1,3 @@
 add_lunch_combo aokp_galaxys2-userdebug
+add_lunch_combo aokp_tf101-userdebug
+add_lunch_combo aokp_maguro-userdebug
