@@ -6,12 +6,16 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/captivatemtd.mk \
     $(LOCAL_DIR)/fascinatemtd.mk \
     $(LOCAL_DIR)/galaxysmtd.mk \
+    $(LOCAL_DIR)/maserati.mk \
     $(LOCAL_DIR)/otter.mk \
     $(LOCAL_DIR)/p4.mk \
     $(LOCAL_DIR)/p4vzw.mk \
     $(LOCAL_DIR)/p4wifi.mk \
+    $(LOCAL_DIR)/solana.mk \
+    $(LOCAL_DIR)/spyder.mk \
     $(LOCAL_DIR)/stingray.mk \
     $(LOCAL_DIR)/supersonic.mk \
+    $(LOCAL_DIR)/targa.mk \
     $(LOCAL_DIR)/tenderloin.mk \
     $(LOCAL_DIR)/tf101.mk\
     $(LOCAL_DIR)/toro.mk \
