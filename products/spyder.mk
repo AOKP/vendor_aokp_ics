@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for crespo.
-$(call inherit-product, device/motorola/spyder/device_spyder.mk)
+$(call inherit-product, device/moto/spyder/device_spyder.mk)
 
 # Inherit common product files.
 $(call inherit-product, vendor/aokp/configs/common_phone.mk)
