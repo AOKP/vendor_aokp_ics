@@ -13,6 +13,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/p4wifi.mk \
     $(LOCAL_DIR)/solana.mk \
     $(LOCAL_DIR)/spyder.mk \
+    $(LOCAL_DIR)/p5wifi.mk \
     $(LOCAL_DIR)/stingray.mk \
     $(LOCAL_DIR)/supersonic.mk \
     $(LOCAL_DIR)/targa.mk \
