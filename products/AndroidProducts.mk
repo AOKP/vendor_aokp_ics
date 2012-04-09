@@ -19,7 +19,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/p5wifi.mk \
     $(LOCAL_DIR)/p990.mk \
     $(LOCAL_DIR)/p999.mk \
-    $(LOCAL_DIR)/pyramid.mk
+    $(LOCAL_DIR)/pyramid.mk \
     $(LOCAL_DIR)/stingray.mk \
     $(LOCAL_DIR)/supersonic.mk \
     $(LOCAL_DIR)/targa.mk \
