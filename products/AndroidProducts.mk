@@ -24,7 +24,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/supersonic.mk \
     $(LOCAL_DIR)/targa.mk \
     $(LOCAL_DIR)/tenderloin.mk \
-    $(LOCAL_DIR)/tf101.mk\
+    $(LOCAL_DIR)/tf101.mk \
     $(LOCAL_DIR)/vibrantmtd.mk \
     $(LOCAL_DIR)/vivow.mk \
     $(LOCAL_DIR)/wingray.mk \
