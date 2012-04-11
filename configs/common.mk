@@ -57,6 +57,12 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/cron/cron.hourly/01clear_cache:system/etc/cron/cron.hourly/01clear_cache \
     vendor/aokp/prebuilt/common/etc/cron/cron.daily/01clear_cache:system/etc/cron/cron.daily/01clear_cache \
     vendor/aokp/prebuilt/common/etc/cron/cron.weekly/01clear_cache:system/etc/cron/cron.weekly/01clear_cache 
+
+#CM apps - Thanks to the great team over at CyanogenMod we have these awesome apps :)
+PRODUCT_PACKAGES += \
+    DSPManager \
+    libcyanogen-dsp \
+    audio_effects.conf
     
 # Adding files needed for extra camera features
 PRODUCT_COPY_FILES += \
