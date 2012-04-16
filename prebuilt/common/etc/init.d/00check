@@ -1,4 +1,4 @@
-#!/system/xbin/sh
+#!/system/xbin/ash
 : '
  ============ Copyright (C) 2010 Jared Rummler (JRummy16) ============
  
