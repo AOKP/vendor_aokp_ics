@@ -1,7 +1,7 @@
-$(call inherit-product, device/samsung/fascinatemtd/full_fascinatemtd.mk)
+$(call inherit-product, device/samsung/fascinateTAB/full_fascinateTAB.mk)
 
 # Release name
-PRODUCT_RELEASE_NAME := FascinateTAD
+PRODUCT_RELEASE_NAME := FascinateTAB
 
 $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
 
@@ -21,5 +21,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-I500 TARGET_DEVICE=SCH-I500 BUI
 # boot animation
 PRODUCT_COPY_FILES += \
 	vendor/aokp/prebuilt/mesmerizemtd/media/boot_audio.unicorn:system/media/boot_audio.unicorn \
-	vendor/aokp/fascinateTAB/Phone.apk:system/app/Phone.apk
+	vendor/aokp/fascinateTAB/Phone.apk:system/app/Phone.apk \
 	vendor/aokp/prebuilt/common/media/bootanimation.zip:system/media/bootanimation.zip
