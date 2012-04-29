@@ -20,6 +20,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=SCH-I500 TARGET_DEVICE=SCH-I500 BUI
 
 # boot animation
 PRODUCT_COPY_FILES += \
-	vendor/aokp/prebuilt/mesmerizemtd/media/boot_audio.mp3:system/media/boot_audio.mp3 \
+	vendor/aokp/prebuilt/mesmerizemtd/media/boot_audio.mp3:system/media/boot_audio.unicorn \
         vendor/aokp/prebuilt/mesmerizemtd/app/Mms.apk:system/app/Mms.apk \
 	vendor/aokp/prebuilt/mesmerizemtd/media/bootanimation.zip:system/media/bootanimation.zip
