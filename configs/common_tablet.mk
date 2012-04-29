@@ -14,7 +14,8 @@ PRODUCT_PACKAGES += \
         LiveWallpapers \
         LiveWallpapersPicker \
         VisualizationWallpapers \
-        librs_jni \
-        Trebuchet
-    
+        librs_jni
+
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/app/ApexLauncher.apk:system/app/ApexLauncher.apk
     
