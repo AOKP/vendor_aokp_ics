@@ -7,7 +7,6 @@ add_lunch_combo aokp_pyramid-userdebug
 add_lunch_combo aokp_bravo-userdebug
 add_lunch_combo aokp_captivatemtd-userdebug
 add_lunch_combo aokp_fascinatemtd-userdebug
-add_lunch_combo aokp_fascinateTAB-userdebug
 add_lunch_combo aokp_galaxysmtd-userdebug
 add_lunch_combo aokp_inc-userdebug
 add_lunch_combo aokp_mesmerizemtd-userdebug
