@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf  \
     vendor/aokp/prebuilt/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/aokp/prebuilt/common/app/TitaniumBackup_latest.apk:system/app/TitaniumBackup_latest.apk \
-    vendor/aokp/prebuilt/common/app/mobi.cyann.nstools-2.apk:system/app/mobi.cyann.nstools-2.apk \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so
     
 # init.d
