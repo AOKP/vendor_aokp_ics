@@ -16,6 +16,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/p4wifi.mk \
     $(LOCAL_DIR)/solana.mk \
     $(LOCAL_DIR)/spyder.mk \
+    $(LOCAL_DIR)/p5.mk \
     $(LOCAL_DIR)/p5wifi.mk \
     $(LOCAL_DIR)/p990.mk \
     $(LOCAL_DIR)/p999.mk \
@@ -29,3 +30,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/vibrantmtd.mk \
     $(LOCAL_DIR)/vivow.mk \
     $(LOCAL_DIR)/wingray.mk \
+    $(LOCAL_DIR)/bravo.mk \
