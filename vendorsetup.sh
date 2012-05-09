@@ -28,5 +28,6 @@ add_lunch_combo aokp_targa-userdebug
 add_lunch_combo aokp_tenderloin-userdebug
 add_lunch_combo aokp_tf101-userdebug
 add_lunch_combo aokp_vibrantmtd-userdebug
+add_lunch_combo aokp_ville-userdebug
 add_lunch_combo aokp_vivow-userdebug
 add_lunch_combo aokp_wingray-userdebug
