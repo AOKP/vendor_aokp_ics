@@ -4,7 +4,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/toroplus.mk \
     $(LOCAL_DIR)/crespo.mk \
     $(LOCAL_DIR)/crespo4g.mk \
+    $(LOCAL_DIR)/bravo.mk \
     $(LOCAL_DIR)/captivatemtd.mk \
+    $(LOCAL_DIR)/espressowifi.mk \
     $(LOCAL_DIR)/fascinatemtd.mk \
     $(LOCAL_DIR)/galaxysmtd.mk \
     $(LOCAL_DIR)/inc.mk \
@@ -13,6 +15,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/p4.mk \
     $(LOCAL_DIR)/p4vzw.mk \
     $(LOCAL_DIR)/p4wifi.mk \
+    $(LOCAL_DIR)/p5.mk \
     $(LOCAL_DIR)/p5wifi.mk \
     $(LOCAL_DIR)/p990.mk \
     $(LOCAL_DIR)/p999.mk \
@@ -22,10 +25,12 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/supersonic.mk \
     $(LOCAL_DIR)/tenderloin.mk \
     $(LOCAL_DIR)/tf101.mk \
+    $(LOCAL_DIR)/tf201.mk \
     $(LOCAL_DIR)/vibrantmtd.mk \
+    $(LOCAL_DIR)/ville.mk \
     $(LOCAL_DIR)/vivow.mk \
     $(LOCAL_DIR)/wingray.mk \
     $(LOCAL_DIR)/fascinatemtd.mk \
     $(LOCAL_DIR)/showcasemtd.mk \
-    $(LOCAL_DIR)/mesmerizemtd.mk \
+    $(LOCAL_DIR)/mesmerizemtd.mk
 
