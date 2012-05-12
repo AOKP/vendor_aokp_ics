@@ -6,6 +6,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/crespo4g.mk \
     $(LOCAL_DIR)/bravo.mk \
     $(LOCAL_DIR)/captivatemtd.mk \
+    $(LOCAL_DIR)/espressowifi.mk \
     $(LOCAL_DIR)/fascinatemtd.mk \
     $(LOCAL_DIR)/galaxysmtd.mk \
     $(LOCAL_DIR)/maserati.mk \
@@ -28,6 +29,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/targa.mk \
     $(LOCAL_DIR)/tenderloin.mk \
     $(LOCAL_DIR)/tf101.mk \
+    $(LOCAL_DIR)/tf201.mk \
     $(LOCAL_DIR)/vibrantmtd.mk \
     $(LOCAL_DIR)/ville.mk \
     $(LOCAL_DIR)/vivow.mk \
