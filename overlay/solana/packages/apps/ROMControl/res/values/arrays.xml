@@ -12,6 +12,7 @@
 		<item>SYNC</item>
 		<item>DATA</item>
 		<item>AP</item>
+		<item>TETHER</item>
 		<item>TORCH</item>
 		<item>SWAGGER</item>
 	</string-array>
@@ -26,7 +27,8 @@
 		<item>Silent</item>
 		<item>Sync</item>
 		<item>Data</item>
-		<item>Tethering (AP)</item>
+		<item>Wi-Fi Tether (AP)</item>
+		<item>USB Tether</item>
 		<item>Torch</item>
 		<item>Swagger</item>
 	</string-array>
