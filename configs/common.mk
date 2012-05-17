@@ -33,6 +33,7 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/app/Microbes.apk:system/app/Microbes.apk \
     vendor/aokp/prebuilt/common/app/TitaniumBackup.apk:system/app/TitaniumBackup.apk \
     vendor/aokp/prebuilt/common/app/NSTools.apk:system/app/NSTools.apk \
+    vendor/aokp/prebuilt/common/app/UnicornPorn.apk:system/app/UnicornPorn.apk \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so
     
 # init.d
@@ -104,3 +105,7 @@ PRODUCT_COPY_FILES += packages/wallpapers/LivePicker/android.software.live_wallp
 
 # Inherit common build.prop overrides
 -include vendor/aokp/configs/common_versions.mk
+
+# Camera shutter sound property
+PRODUCT_PROPERTY_OVERRIDES += \
+	persist.sys.camera-sound=1
