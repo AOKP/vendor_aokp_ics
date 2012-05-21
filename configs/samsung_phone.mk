@@ -13,6 +13,6 @@ PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/samsung/lib/libSamsungVoiceEngine.so:system/lib/libSamsungVoiceEngine.so \
     vendor/aokp/prebuilt/samsung/lib/libsensory.so:system/lib/libsensory.so \
     vendor/aokp/prebuilt/samsung/lib/libspeex.so:system/lib/libspeex.so \
-    vendor/aokp/prebuilt/samsung/lib/libspeexJNI.so:system/lib/libspeexJNI.so \
+    vendor/aokp/prebuilt/samsung/lib/libSpeexJNI.so:system/lib/libSpeexJNI.so \
     vendor/aokp/prebuilt/samsung/lib/libsvoxtts.so:system/lib/libsvoxtts.so \
     vendor/aokp/prebuilt/samsung/lib/libVLSilJNI.so:system/lib/libVLSilJNI.so
