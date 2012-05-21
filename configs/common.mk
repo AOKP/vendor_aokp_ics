@@ -12,6 +12,7 @@ PRODUCT_PACKAGES += \
     su \
     AppWidgetPicker \
     openvpn \
+    Apollo \
     SwagPapers
 
 PRODUCT_PROPERTY_OVERRIDES += \
