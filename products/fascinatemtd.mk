@@ -3,7 +3,7 @@ $(call inherit-product, device/samsung/fascinatemtd/full_fascinatemtd.mk)
 # Release name
 PRODUCT_RELEASE_NAME := Fascinate
 
-$(call inherit-product, vendor/aokp/configs/common_phone.mk)
+$(call inherit-product, vendor/aokp/configs/samsung_phone.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/aries-common
 

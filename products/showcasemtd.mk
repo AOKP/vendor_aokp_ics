@@ -3,7 +3,7 @@ $(call inherit-product, device/samsung/showcasemtd/full_showcasemtd.mk)
 # Release name
 PRODUCT_RELEASE_NAME := Showcase
 
-$(call inherit-product, vendor/aokp/configs/common_phone.mk)
+$(call inherit-product, vendor/aokp/configs/samsung_phone.mk)
 
 PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/aries-common
 
