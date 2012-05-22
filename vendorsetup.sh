@@ -30,4 +30,4 @@ add_lunch_combo aokp_vivow-userdebug
 add_lunch_combo aokp_wingray-userdebug
 add_lunch_combo aokp_fascinatemtd-userdebug
 add_lunch_combo aokp_mesmerizemtd-userdebug
-add_lunch_combo aokp_showcasemtd-userdebug
+add_lunch_combo aokp_n7000-userdebug
