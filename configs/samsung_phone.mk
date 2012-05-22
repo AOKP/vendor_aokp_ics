@@ -6,3 +6,6 @@ PRODUCT_COPY_FILES += \
 # Apps/Libs for SGS3
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/samsung/app/voicetalk.apk:system/app/voicetalk.apk
+    
+PRODUCT_PACKAGES += \
+        Trebuchet
