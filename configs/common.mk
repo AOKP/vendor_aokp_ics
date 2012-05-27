@@ -68,16 +68,6 @@ PRODUCT_PACKAGES += \
     DSPManager \
     libcyanogen-dsp \
     audio_effects.conf
-
-# Term binarry for support for market updates
-PRODUCT_COPY_FILES +=  \
-    vendor/aokp/proprietary/Term.apk:system/app/Term.apk \
-    vendor/aokp/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so 
-
-# Term info for nano support
-PRODUCT_COPY_FILES += \
-    vendor/aokp/prebuilt/common/etc/terminfo/l/linux:system/etc/terminfo/l/linux \
-    vendor/aokp/prebuilt/common/etc/terminfo/u/unknown:system/etc/terminfo/u/unknown
     
 # Adding files needed for extra camera features
 PRODUCT_COPY_FILES += \
