@@ -72,7 +72,7 @@ PRODUCT_PACKAGES += \
 # Term binarry for support for market updates
 PRODUCT_COPY_FILES +=  \
     vendor/aokp/proprietary/Term.apk:system/app/Term.apk \
-    vendor/aokp/proprietary/lib/armeabi/libjackpal-androidterm3.so:system/lib/libjackpal-androidterm3.so 
+    vendor/aokp/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so 
 
 # Term info for nano support
 PRODUCT_COPY_FILES += \
