@@ -31,5 +31,5 @@ PRODUCT_BUILD_PROP_OVERRIDES := PRODUCT_NAME=${PRODUCT_DEVICE}_${PRODUCT_SFX} BU
 
 # Copy spyder specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/aokp/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+    vendor/aokp/prebuilt/bootanimation/bootanimation_540_960.zip:system/media/bootanimation.zip
 
