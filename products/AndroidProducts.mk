@@ -31,6 +31,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/wingray.mk \
     $(LOCAL_DIR)/fascinatemtd.mk \
     $(LOCAL_DIR)/showcasemtd.mk \
-    $(LOCAL_DIR)/mesmerizemtd.mk \
-    $(LOCAL_DIR)/n7000.mk
+    $(LOCAL_DIR)/mesmerizemtd.mk
 
