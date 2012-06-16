@@ -11,18 +11,20 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/galaxysmtd.mk \
     $(LOCAL_DIR)/maserati.mk \
     $(LOCAL_DIR)/inc.mk \
+    $(LOCAL_DIR)/mesmerizemtd.mk \
     $(LOCAL_DIR)/p1c.mk \
     $(LOCAL_DIR)/p4.mk \
     $(LOCAL_DIR)/p4vzw.mk \
     $(LOCAL_DIR)/p4wifi.mk \
-    $(LOCAL_DIR)/solana.mk \
-    $(LOCAL_DIR)/spyder.mk \
     $(LOCAL_DIR)/p5.mk \
     $(LOCAL_DIR)/p5wifi.mk \
     $(LOCAL_DIR)/p990.mk \
     $(LOCAL_DIR)/p999.mk \
     $(LOCAL_DIR)/picasso.mk \
     $(LOCAL_DIR)/pyramid.mk \
+    $(LOCAL_DIR)/showcasemtd.mk \
+    $(LOCAL_DIR)/solana.mk \
+    $(LOCAL_DIR)/spyder.mk \
     $(LOCAL_DIR)/stingray.mk \
     $(LOCAL_DIR)/supersonic.mk \
     $(LOCAL_DIR)/targa.mk \
