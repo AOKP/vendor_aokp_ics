@@ -29,8 +29,8 @@
 		<item>Sync</item>
 		<item>Data</item>
 		<item>2G</item>
-		<item>Wifi-Teth</item>
-		<item>USB-Teth</item>
+		<item>Wi-Fi Tether (AP)</item>
+		<item>USB Tether</item>
 		<item>Swagger</item>
 		<item>Fast charge</item>
 	</string-array>
