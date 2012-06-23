@@ -4,7 +4,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=IMM76I BUILD_VERSION_TAGS=relea
 # Rom Manager properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=teamkang \
-    ro.aokp.version=$(TARGET_PRODUCT)_build-39-Glitched
+    ro.aokp.version=$(TARGET_PRODUCT)_build-39-Devil
 
 # Goo updater app
 PRODUCT_PROPERTY_OVERRIDES += \
