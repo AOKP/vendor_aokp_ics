@@ -18,6 +18,14 @@
  =====================================================================
 '
 
+filesize=`cat /system/etc/liberty.cfg | wc -c`
+
+if busybox [ "$filesize" = "0" ]; then
+  busybox mount -o remount,rw /system
+  rm -f /system/etc/liberty.cfg
+  busybox mount -o remount,ro /system
+fi
+
 if busybox [ ! -f /system/etc/liberty.cfg ]; then
 	busybox mount -o remount,rw /system
 	cat > /system/etc/liberty.cfg << EOF
