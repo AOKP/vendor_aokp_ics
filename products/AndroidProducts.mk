@@ -28,7 +28,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/showcasemtd.mk \
     $(LOCAL_DIR)/skyrocket.mk \
     $(LOCAL_DIR)/solana.mk \
-    $(LOCAL_DIR)/spyder.mk \
     $(LOCAL_DIR)/stingray.mk \
     $(LOCAL_DIR)/supersonic.mk \
     $(LOCAL_DIR)/targa.mk \
