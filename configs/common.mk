@@ -27,6 +27,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     windowsmgr.max_events_per_sec=240 \
     ro.kernel.android.checkjni=0
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    vendor/aokp/prebuilt/common/bin/backuptool.sh:system/bin/backuptool.sh \
+    vendor/aokp/prebuilt/common/bin/backuptool.functions:system/bin/backuptool.functions \
+    vendor/aokp/prebuilt/common/bin/50-backup.sh:system/addon.d/50-backup.sh
+
 # Blobs common to all devices
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \

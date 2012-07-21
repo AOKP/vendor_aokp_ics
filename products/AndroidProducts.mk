@@ -12,6 +12,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/galaxysmtd.mk \
     $(LOCAL_DIR)/hercules.mk \
     $(LOCAL_DIR)/inc.mk \
+    $(LOCAL_DIR)/maserati.mk \
     $(LOCAL_DIR)/mesmerizemtd.mk \
     $(LOCAL_DIR)/n7000.mk \
     $(LOCAL_DIR)/otter.mk \
@@ -27,8 +28,10 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/pyramid.mk \
     $(LOCAL_DIR)/showcasemtd.mk \
     $(LOCAL_DIR)/skyrocket.mk \
+    $(LOCAL_DIR)/solana.mk \
     $(LOCAL_DIR)/stingray.mk \
     $(LOCAL_DIR)/supersonic.mk \
+    $(LOCAL_DIR)/targa.mk \
     $(LOCAL_DIR)/tenderloin.mk \
     $(LOCAL_DIR)/tf101.mk \
     $(LOCAL_DIR)/tf201.mk \

@@ -11,6 +11,7 @@ add_lunch_combo aokp_fascinatemtd-userdebug
 add_lunch_combo aokp_galaxysmtd-userdebug
 add_lunch_combo aokp_hercules-userdebug
 #add_lunch_combo aokp_inc-userdebug
+add_lunch_combo aokp_maserati-userdebug
 add_lunch_combo aokp_mesmerizemtd-userdebug
 add_lunch_combo aokp_n7000-userdebug
 #add_lunch_combo aokp_otter-userdebug
@@ -24,10 +25,12 @@ add_lunch_combo aokp_p990-userdebug
 add_lunch_combo aokp_p999-userdebug
 add_lunch_combo aokp_picasso-userdebug
 add_lunch_combo aokp_pyramid-userdebug
-add_lunch_combo aokp_showcasemtd-userdebug
 add_lunch_combo aokp_skyrocket-userdebug
+add_lunch_combo aokp_solana-userdebug
+add_lunch_combo aokp_spyder-userdebug
 add_lunch_combo aokp_stingray-userdebug
 #add_lunch_combo aokp_supersonic-userdebug
+add_lunch_combo aokp_targa-userdebug
 #add_lunch_combo aokp_tenderloin-userdebug
 add_lunch_combo aokp_tf101-userdebug
 add_lunch_combo aokp_tf201-userdebug
