@@ -35,4 +35,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/vibrantmtd.mk \
     $(LOCAL_DIR)/ville.mk \
     $(LOCAL_DIR)/vivow.mk \
-    $(LOCAL_DIR)/wingray.mk
+    $(LOCAL_DIR)/wingray.mk \
+    $(LOCAL_DIR)/passion.mk \
